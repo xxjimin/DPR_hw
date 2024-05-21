@@ -154,7 +154,7 @@ class LabelTool():
         self.imageDir = os.path.join(r'./Images', '%03d' %(self.category))
         #print self.imageDir 
         #print self.category
-        self.imageList = glob.glob(os.path.join(self.imageDir, '*.JPG'))
+        self.imageList = glob.glob(os.path.join(self.imageDir, '*.png'))
         #print self.imageList
         if len(self.imageList) == 0:
             print ('No .JPG images found in the specified dir!')
